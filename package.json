@@ -2,16 +2,17 @@
   "name": "crawler-budget-react",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://github.com/trimendos/crawler-budget-react#readme",
+  "homepage": "https://trimendos.github.io/crawler-budget-react/",
   "bugs": {
-    "url" : "https://github.com/trimendos/crawler-budget-react/issues"
+    "url": "https://github.com/trimendos/crawler-budget-react/issues"
   },
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "https://github.com/trimendos/crawler-budget-react.git"
   },
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.0.5"
@@ -20,6 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
