@@ -1,7 +1,16 @@
 {
   "name": "crawler-budget-react",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
+  "homepage": "https://github.com/trimendos/crawler-budget-react#readme",
+  "bugs": {
+    "url" : "https://github.com/trimendos/crawler-budget-react/issues"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/trimendos/crawler-budget-react.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
